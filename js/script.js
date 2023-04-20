@@ -5,5 +5,5 @@ const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
 
 document.querySelector('button').addEventListener('click', function () {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    document.querySelector('body').style.backgroundColor = randomColor;
+    document.body.style.backgroundColor = randomColor;
 });
